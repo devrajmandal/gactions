@@ -1,10 +1,8 @@
 # Next.js + Jest
 
-This example shows how to configure Jest to work with Next.js.
+Minimal Next.js + Jest setup with support for TypeScript, Global CSS, CSS Modules, App Router, and React Server Components.
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript. This example also shows how to use Jest with the App Router and React Server Components.
-
-> **Note:** Since tests can be co-located alongside other files inside the App Router, we have placed those tests in `app/` to demonstrate this behavior (which is different than `pages/`). You can still place all tests in `__tests__` if you prefer.
+Tests are shown inside `app/` to demonstrate co-located testing in the App Router, but you can keep tests in `__tests__/` if preferred.
 
 ## Deploy your own
 
@@ -12,19 +10,15 @@ This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScri
 
 ## How to Use
 
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
-
-In your terminal, run the following command:
+Create a project from this example:
 
 ```bash
 npx create-next-app --example with-jest with-jest-app
-```
-
-```bash
 yarn create next-app --example with-jest with-jest-app
-```
-
-```bash
+pnpm create next-app --example with-jest with-jest-app
+# or
+yarn create next-app --example with-jest with-jest-app
+# or
 pnpm create next-app --example with-jest with-jest-app
 ```
 
